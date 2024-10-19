@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arrow funciton in JS CW</title>
+    <h1>Arrow funciton in JS CW</h1>
+</head>
+<body>
+    <p id="arrowfunc"></p>
+    <p id="normfunc"></p>
+    <script>
+        add = (a,b) => (a+b);
+        add1= function add (a,b){
+            return (a+b);
+        }
+        document.getElementById("arrowfunc").innerHTML=add(4,15);
+        document.getElementById("normfunc").innerHTML=add1(3,12);
+    </script>
+</body>
+</html>
